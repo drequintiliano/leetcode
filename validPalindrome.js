@@ -1,6 +1,6 @@
 /*Example 1*/
 var isPalindrome = function(s) {
-    const formatStr = s.replace(/\W/g, '').toLowerCase(); //replace(/\W/g, '') regex to removing non-alphanumeric characters.
+    const formatStr = s.replace(/[^a-zA-Z0-9]/g, '').toLowerCase(); //replace(/\W/g, '') regex to removing non-alphanumeric characters.
 
     return formatStr.split("").reverse().join("") === formatStr;
 };
