@@ -23,6 +23,7 @@ Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 Como funciona:
 O Map em JavaScript é uma coleção de pares chave-valor.
 Quando você faz map.has(chave), o JavaScript só verifica se aquela chave específica existe no Map.
+map.get(chave) Ele retorna o valor associado a uma chave específica dentro do Map.
 
 Exemplo:
 
